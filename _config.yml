@@ -1,28 +1,40 @@
-name: The Bill Myers Show
-favicon: null
-layout_spectrum: 0.6526199856307358
-typography_spectrum: 0.9034420598763973
 cta:
-  domain: null
-  bucket: null
   version: null
+  bucket: null
+  domain: null
+layout_spectrum: 0.6526199856307358
+favicon: null
+name: The Bill Myers Show
+purpose: []
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      navigable: true
+      path: /
+      number: 15
+      paginate: true
+    feed:
+      format: rss
+      path: /rss.xml
+      number: 10
+    permalink:
+      path: '/:title/'
 color:
-  brandColors:
-    - '#FF6700'
-    - '#EBEBEB'
-    - '#C0C0C0'
-    - '#3A6EA5'
-    - '#004E98'
   brandStrength: 0.9705909513868392
-  lightness: 0.8249554308131337
-  saturation: 0.1366565371863544
-  rhythmicContrast: 0.8904560646042228
-purpose: []
+  lightness: 0.8021277
+  saturation: 0.4382979
+  rhythmicContrast: 0.887234
+  brandColors:
+    - '#050708'
+    - '#FFFFFF'
+    - '#2676BC'
+    - '#CCC5BA'
+    - '#474F58'
+typography_spectrum: 0.8914894
